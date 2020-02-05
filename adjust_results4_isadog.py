@@ -3,8 +3,7 @@
 # */AIPND-revision/intropyproject-classify-pet-images/adjust_results4_isadog.py
 #                                                                             
 # PROGRAMMER: John Ashabahebwa
-# DATE CREATED: 27/01/2020                             
-# REVISED DATE: 
+# DATE CREATED: 27/01/2020
 # PURPOSE: Create a function adjust_results4_isadog that adjusts the results 
 #          dictionary to indicate whether or not the pet image label is of-a-dog, 
 #          and to indicate whether or not the classifier image label is of-a-dog.
@@ -36,7 +35,8 @@
 #       Notice that this function doesn't return anything because the 
 #       results_dic dictionary that is passed into the function is a mutable 
 #       data type so no return is needed.
-# 
+
+
 def adjust_results4_isadog(results_dic, dogfile):
     """
     Adjusts the results dictionary to determine if classifier correctly 
@@ -66,7 +66,7 @@ def adjust_results4_isadog(results_dic, dogfile):
                maltese) (string - indicates text file's filename)
     Returns:
            None - results_dic is mutable data type so no return needed.
-    """           
+    """
     dognames_dic = dict()
     with open(dogfile, "r") as dog_file:
         line = dog_file.readline()
@@ -76,9 +76,9 @@ def adjust_results4_isadog(results_dic, dogfile):
                 dognames_dic[line] = 1
             else:
                 print("** Warning: Key=", line,
-                  "already exists in dognames_dic with value = 1")
+                      "already exists in dognames_dic with value = 1")
             line = dog_file.readline()
-    
+
     for dic_key, dic_value in results_dic.items():
         if dic_value[0] in dognames_dic:
             results_dic[dic_key].append(1)
@@ -88,6 +88,3 @@ def adjust_results4_isadog(results_dic, dogfile):
             results_dic[dic_key].append(1)
         else:
             results_dic[dic_key].append(0)
-                
-            
-    
