@@ -52,3 +52,9 @@ models and outputs results in text files.
 eg for VGG, the output can be found in `vgg_uploaded-images.txt`
 
 You should be able to view something like this:
+
+![Image output](https://user-images.githubusercontent.com/15690240/73825022-4b65ed80-480c-11ea-9d5c-a152b20edbc4.png)
+
+> You can as well run classification and print out to terminal directly
+>
+>``` python check_images.py```
