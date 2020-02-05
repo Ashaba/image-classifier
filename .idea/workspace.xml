@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff6f88f-ddc8-4fca-a3d7-dec3bd561677" name="Default Changelist" comment="" />
+    <list default="true" id="dff6f88f-ddc8-4fca-a3d7-dec3bd561677" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adjust_results4_isadog.py" beforeDir="false" afterPath="$PROJECT_DIR$/adjust_results4_isadog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adjust_results4_isadog_hints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculates_results_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculates_results_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculates_results_stats_hints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classify_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/classify_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classify_images_hints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_input_args.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_input_args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_input_args_hints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_pet_labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_pet_labels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_pet_labels_hints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_functions_for_lab_checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/print_functions_for_lab_checks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/print_results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_results_hints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_classifier.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +30,7 @@
   </component>
   <component name="JupyterTrust" id="941ad04e-2517-4cc2-8b11-261191a6ecbc" />
   <component name="ProjectId" id="1XCIDErQcQVsMpsKzAdciPx5vM2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -19,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -61,7 +81,7 @@
       <workItem from="1580798811521" duration="850000" />
       <workItem from="1580827013380" duration="1016000" />
       <workItem from="1580838298102" duration="604000" />
-      <workItem from="1580886731820" duration="991000" />
+      <workItem from="1580886731820" duration="1650000" />
     </task>
     <servers />
   </component>
