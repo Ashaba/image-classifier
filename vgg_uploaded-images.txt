@@ -5,10 +5,10 @@ Command Line Arguments:
 
 Pet Image Label Dictionary has 4 key-value pairs.
 Below are 4 of them:
- 1 key:             Coffee_Cup_01.jpeg  label:                 coffee cup
- 2 key:             Uganda_Kob_01.jpeg  label:                 uganda kob
- 3 key:                     Dog_01.jpg  label:                        dog
- 4 key:                     Dog_02.jpg  label:                        dog
+ 1 key:                     Dog_01.jpg  label:                        dog
+ 2 key:                     Dog_02.jpg  label:                        dog
+ 3 key:             Coffee_Cup_01.jpeg  label:                 coffee cup
+ 4 key:             Uganda_Kob_01.jpeg  label:                 uganda kob
 
      MATCH:
 
@@ -17,14 +17,14 @@ Real:                        dog   Classifier: german shepherd, german shepherd 
 
  NOT A MATCH:
 
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: red wolf, maned wolf, canis rufus, canis niger
+
             Coffee_Cup_01.jpeg: 
 Real:                 coffee cup   Classifier:                       espresso
 
             Uganda_Kob_01.jpeg: 
 Real:                 uganda kob   Classifier:     impala, aepyceros melampus
-
-                    Dog_02.jpg: 
-Real:                        dog   Classifier: red wolf, maned wolf, canis rufus, canis niger
 
 # Total Images 4 # Matches: 1 # NOT Matches: 3
 
@@ -36,6 +36,10 @@ PetLabelDog: 1  ClassLabelDog: 1
 
  NOT A MATCH:
 
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: red wolf, maned wolf, canis rufus, canis niger  
+PetLabelDog: 1  ClassLabelDog: 0
+
             Coffee_Cup_01.jpeg: 
 Real:                 coffee cup   Classifier:                       espresso  
 PetLabelDog: 0  ClassLabelDog: 0
@@ -43,10 +47,6 @@ PetLabelDog: 0  ClassLabelDog: 0
             Uganda_Kob_01.jpeg: 
 Real:                 uganda kob   Classifier:     impala, aepyceros melampus  
 PetLabelDog: 0  ClassLabelDog: 0
-
-                    Dog_02.jpg: 
-Real:                        dog   Classifier: red wolf, maned wolf, canis rufus, canis niger  
-PetLabelDog: 1  ClassLabelDog: 0
 
 # Total Images 4 # Matches: 1 # NOT Matches: 3
 
@@ -69,4 +69,4 @@ N Not-Dog Images    :   2
 % Correct Breed       : 50.0
 % Label Matches       : 25.0
 
-** Total Elapsed Runtime: 0:0:13
+** Total Elapsed Runtime: 0:0:11
